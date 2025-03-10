@@ -49,7 +49,11 @@ public class Game {
         }
     }
 
-    private boolean isValidMove(int move) {
+    public boolean isValidMove(int move) {
         return board.cellFree(move);
+    }
+
+    public Board getBoard(){
+        return board;
     }
 }
