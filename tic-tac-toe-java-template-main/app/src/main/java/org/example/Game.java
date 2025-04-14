@@ -95,4 +95,9 @@ public class Game {
     public boolean isValidMove(int move) {
         return board.cellFree(move);
     }
+
+
+    public Board getBoard(){
+        return board;
+    }
 }
