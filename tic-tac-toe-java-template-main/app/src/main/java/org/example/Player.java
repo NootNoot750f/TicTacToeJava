@@ -27,4 +27,9 @@ public class Player {
             scanner.nextLine();
         }
     }
+
+    public int getMove(Board board) {
+        return getMove(); // fallback to original method
+    }
+    
 }

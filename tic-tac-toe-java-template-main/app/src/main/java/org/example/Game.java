@@ -48,7 +48,7 @@ public class Game {
         Player currentPlayer = first;
         while (true) {
             board.displayBoard();
-            int move = currentPlayer.getMove();
+            int move = currentPlayer.getMove(board);
             if (isValidMove(move)) {
                 board.makeMove(move, currentPlayer.getLetter());
 

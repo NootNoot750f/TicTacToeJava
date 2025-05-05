@@ -48,4 +48,13 @@ public class Board {
     public void reset() {
         grid = new char[]{'1', '2', '3', '4', '5', '6', '7', '8', '9'};
     }
+
+    public char[] getGrid() {
+        return grid;
+    }
+    public Board(char[] customGrid) {
+        this.grid = customGrid;
+    }
+    
+    
 }
